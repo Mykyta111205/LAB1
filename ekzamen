@@ -1,0 +1,15 @@
+def generate_email(name, suffix="@example.com"):
+    return name.lower().replace(" ", "_") + suffix
+
+# Приклад виклику функції
+name = "John Doe"
+email = generate_email(name)
+print(email)
+
+name1 = "Alice Wonderland"
+email1 = generate_email(name1)
+print(email1)
+
+name2 = "Bob Marley"
+email2 = generate_email(name2)
+print(email2)
